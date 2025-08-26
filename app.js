@@ -13,7 +13,7 @@ app.post('/login', userController.login);
 app.get('/users', userController.getUsers);
 
 // Rotas de transferência
-app.post('/transfer', transferController.transfer);
+app.post('/transfers', transferController.transfer);
 app.get('/transfers', transferController.getTransfers);
 
 // Swagger
